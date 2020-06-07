@@ -1,0 +1,31 @@
+apiVersion: v1
+entries:
+  pet-battle:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2020-06-08T08:21:29.858703035+10:00"
+    description: A Helm chart to deploy the frontend of the Pet Battle
+    digest: fb35647b77d8bc249649dd4e4b67731b93313935bdf33e2946696c51854c4ce1
+    home: https://springdo.github.io/pet-battle
+    maintainers:
+    - name: springdo
+    name: pet-battle
+    type: application
+    urls:
+    - https://petbattle.github.io/helm-charts/pet-battle-1.0.0.tgz
+    version: 1.0.0
+  pet-battle-api:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2020-06-08T08:21:29.859198057+10:00"
+    description: A Helm chart for Kubernetes
+    digest: 6699b07cbe451938ff0e7742ec201ce8b83f2ccaf29903e59bc844779ed1469d
+    home: https://eformat.github.io/helm-charts
+    maintainers:
+    - name: eformat
+    name: pet-battle-api
+    type: application
+    urls:
+    - https://petbattle.github.io/helm-charts/pet-battle-api-1.0.0.tgz
+    version: 1.0.0
+generated: "2020-06-08T08:21:29.856985511+10:00"
