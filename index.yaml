@@ -3,7 +3,7 @@ entries:
   pet-battle:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2020-11-15T15:55:20.514701778+10:00"
+    created: "2020-11-16T10:36:43.454847275+10:00"
     description: A Helm chart to deploy the frontend of the Pet Battle
     digest: 0f9443569c8b020a7edfcd43ead5659968efd20d4728f8c6155490bdd6c30c75
     home: https://springdo.github.io/pet-battle
@@ -16,7 +16,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-11-15T15:55:20.514235371+10:00"
+    created: "2020-11-16T10:36:43.454303858+10:00"
     description: A Helm chart to deploy the frontend of the Pet Battle
     digest: fb35647b77d8bc249649dd4e4b67731b93313935bdf33e2946696c51854c4ce1
     home: https://springdo.github.io/pet-battle
@@ -30,9 +30,9 @@ entries:
   pet-battle-api:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-11-15T15:55:20.517141207+10:00"
+    created: "2020-11-16T10:36:43.458117647+10:00"
     description: A Helm chart for Kubernetes
-    digest: 8f6498f926879bd8f45c0b96f52d400508e673fb69a6e98fdf8630aafff55613
+    digest: e43c95113e4af12203e0764c970bf454687bf4da8ad2349e9ad210957b92aa5e
     home: https://eformat.github.io/helm-charts
     maintainers:
     - name: eformat
@@ -43,7 +43,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-11-15T15:55:20.515955271+10:00"
+    created: "2020-11-16T10:36:43.456389935+10:00"
     description: A Helm chart for Kubernetes
     digest: 7397b13b6ee68ad6afe79d4366e0bc8a4f997e398302e35fffb07330fb606145
     home: https://eformat.github.io/helm-charts
@@ -56,7 +56,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-11-15T15:55:20.515319207+10:00"
+    created: "2020-11-16T10:36:43.4556185+10:00"
     description: A Helm chart for Kubernetes
     digest: 6699b07cbe451938ff0e7742ec201ce8b83f2ccaf29903e59bc844779ed1469d
     home: https://eformat.github.io/helm-charts
@@ -67,4 +67,4 @@ entries:
     urls:
     - https://petbattle.github.io/helm-charts/pet-battle-api-1.0.0.tgz
     version: 1.0.0
-generated: "2020-11-15T15:55:20.513594452+10:00"
+generated: "2020-11-16T10:36:43.452495436+10:00"
