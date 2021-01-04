@@ -39,7 +39,7 @@ helm uninstall pb-nsfw pb-api pb-fe pb-tourny pb-infra
 oc delete csv cert-utils-operator.v0.2.2 grafana-operator.v3.7.0 infinispan-operator.v2.1.1 keycloak-operator.v11.0.0
 ```
 
-helm3 will not uninstall crds
+helm3 will not uninstall crds (be careful, these are cluster wide resources!)
 ```bash
 infr_chart_version=$(helm search repo petbattle/pet-battle-infra | grep petbattle/pet-battle-infra | awk '{print $2}')
 helm fetch --untar petbattle/pet-battle-infra --version ${infr_chart_version}
