@@ -32,6 +32,11 @@ Then deploy the Tournament service using a normal user
 helm install pb-tourny petbattle/pet-battle-tournament --version=1.0.2 --set tags.infra=false
 ```
 
+Upgrading a chart version
+```bash
+helm upgrade pb-api petbattle/pet-battle-api --version 1.0.5
+```
+
 ## Delete apps
 
 ```bash
