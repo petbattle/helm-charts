@@ -19,8 +19,8 @@ helm repo add petbattle https://petbattle.github.io/helm-charts
 helm repo update
 helm install pb-nsfw petbattle/pet-battle-nsfw --version=0.0.1
 helm install pb-api petbattle/pet-battle-api --version=1.0.4
-helm install pb-fe petbattle/pet-battle --version=1.0.2 --set config_map="'http://$(oc get route -lapp.kubernetes.io/name=pet-battle-api -o custom-columns=ROUTE:.spec.host --no-headers)'"
-helm install pb-tourny petbattle/pet-battle-tournament --version=1.0.2
+helm install pb-fe petbattle/pet-battle --version=1.0.3 --set config_map="'http://$(oc get route -lapp.kubernetes.io/name=pet-battle-api -o custom-columns=ROUTE:.spec.host --no-headers)'"
+helm install pb-tourny petbattle/pet-battle-tournament --version=1.0.3
 ```
 
 You can also deploy the Tournament infrastructure separately (this requires cluster admin role)
@@ -29,7 +29,7 @@ helm install pb-infra petbattle/pet-battle-infra --version=1.0.1 --set nameOverr
 ```
 Then deploy the Tournament service using a normal user
 ```bash
-helm install pb-tourny petbattle/pet-battle-tournament --version=1.0.2 --set tags.infra=false
+helm install pb-tourny petbattle/pet-battle-tournament --version=1.0.3 --set tags.infra=false --skip-crds
 ```
 
 Upgrading a chart version
