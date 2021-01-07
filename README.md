@@ -18,7 +18,7 @@ Install the full Pet Battle suite of apps
 helm repo add petbattle https://petbattle.github.io/helm-charts
 helm repo update
 helm install pb-nsfw petbattle/pet-battle-nsfw --version=0.0.1
-helm install pb-api petbattle/pet-battle-api --version=1.0.4
+helm install pb-api petbattle/pet-battle-api --version=1.0.6
 helm install pb-fe petbattle/pet-battle --version=1.0.3 --set config_map="'http://$(oc get route -lapp.kubernetes.io/name=pet-battle-api -o custom-columns=ROUTE:.spec.host --no-headers)'"
 helm install pb-tourny petbattle/pet-battle-tournament --version=1.0.3
 ```
@@ -34,7 +34,7 @@ helm install pb-tourny petbattle/pet-battle-tournament --version=1.0.3 --set tag
 
 Upgrading a chart version
 ```bash
-helm upgrade pb-api petbattle/pet-battle-api --version 1.0.5
+helm upgrade pb-api petbattle/pet-battle-api --version 1.0.6
 ```
 
 ## Delete apps
