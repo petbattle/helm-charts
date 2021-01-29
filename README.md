@@ -21,7 +21,6 @@ helm install pb-nsfw petbattle/pet-battle-nsfw --version=0.0.1
 helm install pb-api petbattle/pet-battle-api --version=1.0.6
 helm install pb-fe petbattle/pet-battle --version=1.0.3 --set config_map="'http://$(oc get route -lapp.kubernetes.io/name=pet-battle-api -o custom-columns=ROUTE:.spec.host --no-headers)'"
 helm install pb-tourny petbattle/pet-battle-tournament --version=1.0.9
-helm install pb-ui petbattle/pet-battle --version=1.0.3
 ```
 
 You can also deploy the Tournament infrastructure separately (this requires cluster admin role)
@@ -42,5 +41,4 @@ helm upgrade pb-api petbattle/pet-battle-api --version 1.0.6
 
 ```bash
 helm uninstall pb-nsfw pb-api pb-fe pb-tourny pb-infra
-oc delete csv $(oc get csv --template='{{ range .items }} {{ .metadata.name  }}{{ end }}')
 ```
