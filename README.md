@@ -17,28 +17,14 @@ Install the full Pet Battle suite of apps
 ```bash
 helm repo add petbattle https://petbattle.github.io/helm-charts
 helm repo update
-helm install pb-nsfw petbattle/pet-battle-nsfw --version=0.0.1
-helm install pb-api petbattle/pet-battle-api --version=1.0.6
-helm install pb-fe petbattle/pet-battle --version=1.0.3 --set config_map="'http://$(oc get route -lapp.kubernetes.io/name=pet-battle-api -o custom-columns=ROUTE:.spec.host --no-headers)'"
-helm install pb-tourny petbattle/pet-battle-tournament --version=1.0.9
-```
-
-You can also deploy the Tournament infrastructure separately (this requires cluster admin role)
-```bash
-helm install pb-infra petbattle/pet-battle-infra --version=1.0.8
-```
-Then deploy the Tournament service using a normal user
-```bash
-helm install pb-tourny petbattle/pet-battle-tournament --version=1.0.9 --set tags.infra=false
-```
-
-Upgrading a chart version
-```bash
-helm upgrade pb-api petbattle/pet-battle-api --version 1.0.6
+helm upgrade --install pet-battle-infra petbattle/pet-battle-infra --version=1.0.9 --set pet-battle-infra-subs.install_cert_util=true --namespace labs-dev
+helm upgrade --install pet-battle-tournament petbattle/pet-battle-tournament --version=1.0.10 --set tags.infra=false --namespace labs-dev
+helm upgrade --install pet-battle-api petbattle/pet-battle-api --version=1.0.6 --namespace labs-dev
+helm upgrade --install pet-battle petbattle/pet-battle --version=1.0.3 --set config_map="'http://$(oc get route -lapp.kubernetes.io/name=pet-battle-api -o custom-columns=ROUTE:.spec.host --no-headers)'"
 ```
 
 ## Delete apps
 
 ```bash
-helm uninstall pb-nsfw pb-api pb-fe pb-tourny pb-infra
+helm uninstall pet-battle-infra pet-battle-tournament pet-battle-api pet-battle
 ```
