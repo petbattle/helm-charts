@@ -23,6 +23,11 @@ helm upgrade --install pet-battle-api petbattle/pet-battle-api --version=1.0.6 -
 helm upgrade --install pet-battle petbattle/pet-battle --version=1.0.3 --set config_map="'http://$(oc get route -lapp.kubernetes.io/name=pet-battle-api -o custom-columns=ROUTE:.spec.host --no-headers)'"
 ```
 
+- [ ] FIXME - For now, tag this image
+```bash
+oc tag quay.io/petbattle/pet-battle-tournament:gha-master labs-dev/pet-battle-tournament:latest
+```
+
 ## Delete apps
 
 ```bash
