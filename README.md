@@ -21,7 +21,7 @@ helm upgrade --install pet-battle-infra petbattle/pet-battle-infra --version=1.0
 helm upgrade --install pet-battle-tournament petbattle/pet-battle-tournament --version=1.0.14 --set tags.infra=false --namespace labs-dev
 helm upgrade --install pet-battle-api petbattle/pet-battle-api --version=1.0.6 --namespace labs-dev
 helm upgrade --install pet-battle-nsfw petbattle/pet-battle-nsfw --version=0.0.1 --namespace labs-dev
-helm upgrade --install pet-battle petbattle/pet-battle --version=1.0.3 --set config_map="'http://$(oc get route -lapp.kubernetes.io/name=pet-battle-api -o custom-columns=ROUTE:.spec.host --no-headers)'"
+helm upgrade --install pet-battle petbattle/pet-battle --version=1.0.3 -f values.yaml
 ```
 
 - [ ] FIXME - For now, tag this image
