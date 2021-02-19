@@ -20,7 +20,7 @@ helm repo update
 helm upgrade --install pet-battle-infra petbattle/pet-battle-infra --version=1.0.13 --set install_cert_util=true --namespace labs-dev
 helm upgrade --install pet-battle-tournament petbattle/pet-battle-tournament --version=1.0.18 --set tags.infra=false --namespace labs-dev
 helm upgrade --install pet-battle-api petbattle/pet-battle-api --version=1.0.7 --namespace labs-dev
-helm upgrade --install pet-battle-nsfw petbattle/pet-battle-nsfw --version=0.0.1 --namespace labs-dev
+helm upgrade --install pet-battle-nsfw petbattle/pet-battle-nsfw --version=0.0.2 --namespace labs-dev
 helm upgrade --install pet-battle petbattle/pet-battle --version=1.0.4 -f values.yaml
 ```
 
