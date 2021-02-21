@@ -23,15 +23,15 @@ Install the full Pet Battle suite of apps
 ```bash
 helm repo add petbattle https://petbattle.github.io/helm-charts
 helm repo update
-helm upgrade --install pet-battle-infra petbattle/pet-battle-infra --version=1.0.14 --set install_cert_util=true --namespace labs-dev
-helm upgrade --install pet-battle-tournament petbattle/pet-battle-tournament --version=1.0.20 --set tags.infra=false --namespace labs-dev
-helm upgrade --install pet-battle-api petbattle/pet-battle-api --version=1.0.8 --namespace labs-dev
+helm upgrade --install pet-battle-infra petbattle/pet-battle-infra --version=1.0.14 --set install_cert_util=true --namespace pb
+helm upgrade --install pet-battle-tournament petbattle/pet-battle-tournament --version=1.0.20 --set tags.infra=false --namespace pb
+helm upgrade --install pet-battle-api petbattle/pet-battle-api --version=1.0.8 --namespace pb
 helm upgrade --install pet-battle petbattle/pet-battle --version=1.0.4 -f values.yaml
 ```
 
 To install the NSFF feature
 ```bash
-helm upgrade --install pet-battle-nsfw petbattle/pet-battle-nsff --version=0.0.1 --namespace labs-dev
+helm upgrade --install pet-battle-nsfw petbattle/pet-battle-nsff --version=0.0.1 --namespace pb
 # openshift knative
 HOST=$(kn service describe tensorflowserving-pb-nsff -o url)
 # openshift deployment
