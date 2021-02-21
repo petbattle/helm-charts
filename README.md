@@ -17,11 +17,11 @@ Install the full Pet Battle suite of apps
 ```bash
 helm repo add petbattle https://petbattle.github.io/helm-charts
 helm repo update
-helm upgrade --install pet-battle-infra petbattle/pet-battle-infra --version=1.0.13 --set install_cert_util=true --namespace labs-dev
+helm upgrade --install pet-battle-infra petbattle/pet-battle-infra --version=1.0.14 --set install_cert_util=true --namespace labs-dev
 helm upgrade --install pet-battle-tournament petbattle/pet-battle-tournament --version=1.0.18 --set tags.infra=false --namespace labs-dev
-helm upgrade --install pet-battle-api petbattle/pet-battle-api --version=1.0.7 --namespace labs-dev
-helm upgrade --install pet-battle-nsfw petbattle/pet-battle-nsfw --version=0.0.2 --namespace labs-dev
+helm upgrade --install pet-battle-api petbattle/pet-battle-api --version=1.0.8 --namespace labs-dev
 helm upgrade --install pet-battle petbattle/pet-battle --version=1.0.4 -f values.yaml
+helm upgrade --install pet-battle-nsfw petbattle/pet-battle-nsff --version=0.0.1 --namespace labs-dev
 ```
 
 - [ ] FIXME - For now, tag this image
@@ -32,5 +32,5 @@ oc tag quay.io/petbattle/pet-battle-tournament:gha-master labs-dev/pet-battle-to
 ## Delete apps
 
 ```bash
-helm uninstall pet-battle-infra pet-battle-tournament pet-battle-api pet-battle
+helm uninstall pet-battle-infra pet-battle-tournament pet-battle-api pet-battle pet-battle-nsff
 ```
