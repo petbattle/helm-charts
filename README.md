@@ -14,7 +14,7 @@ Create a project
 oc new-project pb
 ```
 
-You will need to adjust the `pet-battle` UI `values.yaml` file to set the backend to suit your environment
+You will need to adjust the `pet-battle` UI `values.yaml` file to set the backend url's to suit your environment
 ```bash
 wget https://raw.githubusercontent.com/petbattle/pet-battle/master/chart/values.yaml
 ```
