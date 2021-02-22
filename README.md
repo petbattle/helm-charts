@@ -31,7 +31,7 @@ helm upgrade --install pet-battle petbattle/pet-battle --version=1.0.4 -f values
 
 To install the NSFF feature
 ```bash
-helm upgrade --install pet-battle-nsfw petbattle/pet-battle-nsff --version=0.0.1 --namespace pb
+helm upgrade --install pet-battle-nsff petbattle/pet-battle-nsff --version=0.0.1 --namespace pb
 # openshift knative
 HOST=$(kn service describe tensorflowserving-pb-nsff -o url)
 # openshift deployment
