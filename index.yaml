@@ -3,7 +3,7 @@ entries:
   pet-battle:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2021-02-24T20:12:43.412428474+10:00"
+    created: "2021-02-25T19:00:06.504877378+10:00"
     description: A Helm chart to deploy the frontend of the Pet Battle
     digest: 64d632b040fb466b577b2c746e79b6c6a4a5f76224ed8cbaa67d6812498d14e9
     home: https://springdo.github.io/pet-battle
@@ -17,7 +17,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2021-02-24T20:12:43.410506929+10:00"
+    created: "2021-02-25T19:00:06.504415222+10:00"
     description: A Helm chart to deploy the frontend of the Pet Battle
     digest: 3fbc063772e1800d497c574e1c76ae75fb4368d276836fc34645f7b5607a58d6
     home: https://springdo.github.io/pet-battle
@@ -31,7 +31,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2021-02-24T20:12:43.405260881+10:00"
+    created: "2021-02-25T19:00:06.503955994+10:00"
     description: A Helm chart to deploy the frontend of the Pet Battle
     digest: bcc7aedd2bad306b425fcc50a99a02f7d44e9324d7fc373f45b34eab74bf141f
     home: https://springdo.github.io/pet-battle
@@ -44,7 +44,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2021-02-24T20:12:43.404520111+10:00"
+    created: "2021-02-25T19:00:06.503533354+10:00"
     description: A Helm chart to deploy the frontend of the Pet Battle
     digest: 0f9443569c8b020a7edfcd43ead5659968efd20d4728f8c6155490bdd6c30c75
     home: https://springdo.github.io/pet-battle
@@ -57,7 +57,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.404078563+10:00"
+    created: "2021-02-25T19:00:06.503007545+10:00"
     description: A Helm chart to deploy the frontend of the Pet Battle
     digest: fb35647b77d8bc249649dd4e4b67731b93313935bdf33e2946696c51854c4ce1
     home: https://springdo.github.io/pet-battle
@@ -71,7 +71,7 @@ entries:
   pet-battle-api:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.420500016+10:00"
+    created: "2021-02-25T19:00:06.512247555+10:00"
     description: Pet Battle API
     digest: 9023b596714d8d97becc26aad07b8ed8db7453316aabae8ea5b89bb9212bf889
     home: https://eformat.github.io/helm-charts
@@ -89,7 +89,7 @@ entries:
     version: 1.0.8
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.419814083+10:00"
+    created: "2021-02-25T19:00:06.511422368+10:00"
     description: Pet Battle API
     digest: cae6a1ef9bb4c72a9b19a6a5deb3cd9295504405ae094b1f4998324c5b0e8688
     home: https://eformat.github.io/helm-charts
@@ -107,7 +107,7 @@ entries:
     version: 1.0.6
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.41902885+10:00"
+    created: "2021-02-25T19:00:06.510556242+10:00"
     description: A Helm chart for Kubernetes
     digest: 624cd418e19239eb4319b72357431b6f764ca63a5075509e3e696f9f5999df92
     home: https://eformat.github.io/helm-charts
@@ -120,7 +120,7 @@ entries:
     version: 1.0.5
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.417963418+10:00"
+    created: "2021-02-25T19:00:06.509589589+10:00"
     description: A Helm chart for Kubernetes
     digest: 07b0b4d98dce6016c47112f9e3941ea0cc4df95b7ff60ab1de1841725d4f4bbd
     home: https://eformat.github.io/helm-charts
@@ -133,7 +133,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.41698399+10:00"
+    created: "2021-02-25T19:00:06.50862747+10:00"
     description: A Helm chart for Kubernetes
     digest: bcb2ac7ff345ec53c3c40d0431f9fb64e5fb8ea3d991312848a92b82d8cb810a
     home: https://eformat.github.io/helm-charts
@@ -146,7 +146,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.416227226+10:00"
+    created: "2021-02-25T19:00:06.507740545+10:00"
     description: A Helm chart for Kubernetes
     digest: e43c95113e4af12203e0764c970bf454687bf4da8ad2349e9ad210957b92aa5e
     home: https://eformat.github.io/helm-charts
@@ -159,7 +159,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.415549141+10:00"
+    created: "2021-02-25T19:00:06.506840117+10:00"
     description: A Helm chart for Kubernetes
     digest: 7397b13b6ee68ad6afe79d4366e0bc8a4f997e398302e35fffb07330fb606145
     home: https://eformat.github.io/helm-charts
@@ -172,7 +172,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.414907561+10:00"
+    created: "2021-02-25T19:00:06.505466608+10:00"
     description: A Helm chart for Kubernetes
     digest: 6699b07cbe451938ff0e7742ec201ce8b83f2ccaf29903e59bc844779ed1469d
     home: https://eformat.github.io/helm-charts
@@ -186,7 +186,7 @@ entries:
   pet-battle-infra:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.429208801+10:00"
+    created: "2021-02-25T19:00:06.517962036+10:00"
     description: A Helm chart for Pet Battle Infrastructure
     digest: 478babcc7fcd1d315640208030c61b6202c32cbc5f32743687c6d50e4e23a029
     home: https://petbattle.github.io/helm-charts
@@ -200,7 +200,7 @@ entries:
     version: 1.0.14
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.427727066+10:00"
+    created: "2021-02-25T19:00:06.517090269+10:00"
     description: A Helm chart for Pet Battle Infrastructure
     digest: 978ed1c29842bbe7dd6dc666afd9cf58759755c2144fea07ca4cdad8abf76490
     home: https://petbattle.github.io/helm-charts
@@ -214,7 +214,7 @@ entries:
     version: 1.0.13
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.426672401+10:00"
+    created: "2021-02-25T19:00:06.516399036+10:00"
     description: A Helm chart for Pet Battle Infrastructure
     digest: 4e85a8424025a39f38b11db0bd448eb74da5e121f4d9bf2100f9e5e116b70dba
     home: https://petbattle.github.io/helm-charts
@@ -228,7 +228,7 @@ entries:
     version: 1.0.12
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.425836695+10:00"
+    created: "2021-02-25T19:00:06.515819886+10:00"
     description: A Helm chart for Pet Battle Infrastructure
     digest: 3ecf491c422a63c28133a833ec3a2ec0eb0b1194d61d850a8e4cd25eff945bf4
     home: https://petbattle.github.io/helm-charts
@@ -242,7 +242,7 @@ entries:
     version: 1.0.11
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.424956432+10:00"
+    created: "2021-02-25T19:00:06.515218695+10:00"
     description: A Helm chart for Pet Battle Infrastructure
     digest: d97b4bd9fa5eafdf992d1b07b2406a6ba77f02b72a8da3767dbda60c52389568
     home: https://petbattle.github.io/helm-charts
@@ -256,7 +256,7 @@ entries:
     version: 1.0.10
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.440151001+10:00"
+    created: "2021-02-25T19:00:06.522801042+10:00"
     dependencies:
     - name: pet-battle-infra-subs
       repository: https://petbattle.github.io/helm-charts
@@ -276,7 +276,7 @@ entries:
     version: 1.0.9
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.43926457+10:00"
+    created: "2021-02-25T19:00:06.522090797+10:00"
     dependencies:
     - name: pet-battle-infra-subs
       repository: https://petbattle.github.io/helm-charts
@@ -296,7 +296,7 @@ entries:
     version: 1.0.8
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.438521082+10:00"
+    created: "2021-02-25T19:00:06.521266777+10:00"
     description: A Helm chart for Pet Battle Infrastructure
     digest: ee66ea29e26dde37b8c038540f22aa0ead09edf3a1b30070349ce8eac84b56e8
     home: https://petbattle.github.io/helm-charts
@@ -310,7 +310,7 @@ entries:
     version: 1.0.7
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.437953967+10:00"
+    created: "2021-02-25T19:00:06.520788943+10:00"
     description: A Helm chart for Pet Battle Infrastructure
     digest: 1e813fc5a1a8bd4babae6834cc345fae5cfbdf4a70682239309fda36a14b974a
     home: https://petbattle.github.io/helm-charts
@@ -324,7 +324,7 @@ entries:
     version: 1.0.6
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.437478628+10:00"
+    created: "2021-02-25T19:00:06.52034279+10:00"
     description: A Helm chart for Pet Battle Infrastructure
     digest: 800642f6c06c45b6d2200a903736aa133ea09eea2072ea3e3f9cce2e97c3ad27
     home: https://petbattle.github.io/helm-charts
@@ -338,7 +338,7 @@ entries:
     version: 1.0.5
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.437032502+10:00"
+    created: "2021-02-25T19:00:06.519909939+10:00"
     description: A Helm chart for Pet Battle Infrastructure
     digest: 9f0246508dbd3df440e21b1ee01a323bf7d54a30366621fec73f919e6dcd4e28
     home: https://petbattle.github.io/helm-charts
@@ -352,7 +352,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.436575566+10:00"
+    created: "2021-02-25T19:00:06.519269283+10:00"
     description: A Helm chart for Pet Battle Infrastructure
     digest: e2e07785af3a4d2bc0a4b82dcfdb76c6bf68b69f824e4cb3199e06a815c3ecab
     home: https://petbattle.github.io/helm-charts
@@ -366,7 +366,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.433980862+10:00"
+    created: "2021-02-25T19:00:06.518418407+10:00"
     description: A Helm chart for Pet Battle Infrastructure
     digest: c7a5d13605fcc0cc4b32674cbcae19a24efe1954faa7f6cb74074f56709126fd
     home: https://petbattle.github.io/helm-charts
@@ -380,7 +380,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.423975537+10:00"
+    created: "2021-02-25T19:00:06.514560064+10:00"
     description: A Helm chart for Pet Battle Infrastructure
     digest: 30d6b8357b41e7f362377ebca486a43985628456ca16528e675f0608072d751a
     home: https://petbattle.github.io/helm-charts
@@ -394,7 +394,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.421879893+10:00"
+    created: "2021-02-25T19:00:06.513431889+10:00"
     description: A Helm chart for Pet Battle Infrastructure
     digest: d1c51dcb7cd0a94696aeefdcf5c03bda7eaaf69f80581902e690760b4848a7ee
     home: https://petbattle.github.io/helm-charts
@@ -409,7 +409,7 @@ entries:
   pet-battle-infra-subs:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.441154989+10:00"
+    created: "2021-02-25T19:00:06.52350976+10:00"
     description: A Helm chart for Pet Battle Infrastructure Operator Subscription
     digest: b2131661bf4b0fe1c62e241f8e3a1cfcaf9d1140c16b1bfe00adb3b61f49d0a0
     home: https://petbattle.github.io/helm-charts
@@ -422,7 +422,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.440653421+10:00"
+    created: "2021-02-25T19:00:06.523144339+10:00"
     description: A Helm chart for Pet Battle Infrastructure Operator Subscription
     digest: e0bf62c07de2e2d69bdccfc98e54285d0debbbcbb790aa93e3856666e50d420f
     home: https://petbattle.github.io/helm-charts
@@ -436,7 +436,7 @@ entries:
   pet-battle-nsff:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2021-02-24T20:12:43.442437883+10:00"
+    created: "2021-02-25T19:00:06.524293265+10:00"
     description: A Helm chart for installing NSFF Pet Battle AI-ML components
     digest: 0dd1f55858374940039efbb5a1049b284c853f19eb7d810a95ac8aa84e863ec4
     home: https://petbattle.github.io/helm-charts/
@@ -449,7 +449,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2021-02-24T20:12:43.441600613+10:00"
+    created: "2021-02-25T19:00:06.523905505+10:00"
     description: A Helm chart for installing NSFF Pet Battle AI-ML components
     digest: e8be22ec4c9e2034a08e95266e913961a7e1e18d4a9136293534d1bcc145b3e7
     home: https://petbattle.github.io/helm-charts/
@@ -463,7 +463,7 @@ entries:
   pet-battle-nsfw:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2021-02-24T20:12:43.443515443+10:00"
+    created: "2021-02-25T19:00:06.525278126+10:00"
     description: A Helm chart for installing NSFW Pet Battle AI-ML components
     digest: 99a52017d80d82f61a82100490cd4aa7db300762e41c3202c32d843a14beeff0
     home: https://eformat.github.io/helm-charts/
@@ -476,7 +476,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2021-02-24T20:12:43.442986167+10:00"
+    created: "2021-02-25T19:00:06.524794083+10:00"
     description: A Helm chart for installing NSFW Pet Battle AI-ML components
     digest: 47c7539be313133c7ed90610d3010a313f5e51c09deadc93e47381ba0570276b
     home: https://eformat.github.io/helm-charts/
@@ -490,7 +490,7 @@ entries:
   pet-battle-tournament:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.457119177+10:00"
+    created: "2021-02-25T19:00:06.540018106+10:00"
     dependencies:
     - import-values:
       - child: infinispan
@@ -514,7 +514,7 @@ entries:
     version: 1.0.20
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.45443076+10:00"
+    created: "2021-02-25T19:00:06.536975155+10:00"
     dependencies:
     - import-values:
       - child: infinispan
@@ -538,7 +538,7 @@ entries:
     version: 1.0.18
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.453189011+10:00"
+    created: "2021-02-25T19:00:06.535660559+10:00"
     dependencies:
     - import-values:
       - child: infinispan
@@ -562,7 +562,7 @@ entries:
     version: 1.0.16
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.45203615+10:00"
+    created: "2021-02-25T19:00:06.534541123+10:00"
     dependencies:
     - import-values:
       - child: infinispan
@@ -586,7 +586,7 @@ entries:
     version: 1.0.14
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.450858436+10:00"
+    created: "2021-02-25T19:00:06.533365921+10:00"
     dependencies:
     - import-values:
       - child: infinispan
@@ -610,7 +610,7 @@ entries:
     version: 1.0.13
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.449759981+10:00"
+    created: "2021-02-25T19:00:06.532192663+10:00"
     dependencies:
     - import-values:
       - child: infinispan
@@ -634,7 +634,7 @@ entries:
     version: 1.0.12
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.448276069+10:00"
+    created: "2021-02-25T19:00:06.529687994+10:00"
     description: A Helm chart for Kubernetes
     digest: 47010daac57e18463da8bb23235faf5343d5a280955f0968c953e62fd068759f
     home: https://petbattle.github.io/helm-charts
@@ -648,7 +648,7 @@ entries:
     version: 1.0.11
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.446424013+10:00"
+    created: "2021-02-25T19:00:06.528240734+10:00"
     dependencies:
     - import-values:
       - child: infinispan
@@ -672,7 +672,7 @@ entries:
     version: 1.0.10
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.465413272+10:00"
+    created: "2021-02-25T19:00:06.548974217+10:00"
     dependencies:
     - import-values:
       - child: infinispan
@@ -696,7 +696,7 @@ entries:
     version: 1.0.9
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.464382499+10:00"
+    created: "2021-02-25T19:00:06.547859531+10:00"
     dependencies:
     - import-values:
       - child: infinispan
@@ -720,7 +720,7 @@ entries:
     version: 1.0.8
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.463324937+10:00"
+    created: "2021-02-25T19:00:06.546809483+10:00"
     dependencies:
     - import-values:
       - child: infinispan
@@ -744,7 +744,7 @@ entries:
     version: 1.0.7
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.462263248+10:00"
+    created: "2021-02-25T19:00:06.545799045+10:00"
     dependencies:
     - import-values:
       - child: infinispan
@@ -768,7 +768,7 @@ entries:
     version: 1.0.6
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.461243328+10:00"
+    created: "2021-02-25T19:00:06.544754195+10:00"
     dependencies:
     - import-values:
       - child: infinispan
@@ -792,7 +792,7 @@ entries:
     version: 1.0.5
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.460264333+10:00"
+    created: "2021-02-25T19:00:06.543079996+10:00"
     dependencies:
     - import-values:
       - child: infinispan
@@ -816,7 +816,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.458975999+10:00"
+    created: "2021-02-25T19:00:06.541561427+10:00"
     dependencies:
     - import-values:
       - child: infinispan
@@ -840,7 +840,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.455854351+10:00"
+    created: "2021-02-25T19:00:06.538464681+10:00"
     dependencies:
     - condition: pet-battle-infra.enabled
       import-values:
@@ -865,7 +865,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.445152631+10:00"
+    created: "2021-02-25T19:00:06.526819424+10:00"
     dependencies:
     - condition: pet-battle-infra.enabled
       import-values:
@@ -890,7 +890,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-02-24T20:12:43.444267522+10:00"
+    created: "2021-02-25T19:00:06.525941297+10:00"
     description: A Helm chart for Kubernetes
     digest: 7b0e40083d2be0937577f65ae05eb04810b2c60645e850836c06d2b51c458e82
     home: https://petbattle.github.io/helm-charts
@@ -902,4 +902,4 @@ entries:
     urls:
     - https://petbattle.github.io/helm-charts/pet-battle-tournament-1.0.0.tgz
     version: 1.0.0
-generated: "2021-02-24T20:12:43.403454176+10:00"
+generated: "2021-02-25T19:00:06.50234452+10:00"
