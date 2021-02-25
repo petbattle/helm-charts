@@ -22,7 +22,7 @@ wget https://raw.githubusercontent.com/petbattle/pet-battle/master/chart/values.
 To install the main Pet Battle applications
 ```bash
 helm upgrade --install pet-battle-api petbattle/pet-battle-api --version=1.0.8 --namespace petbattle --create-namespace
-helm upgrade --install pet-battle petbattle/pet-battle --version=1.0.4 -f values.yaml
+helm upgrade --install pet-battle petbattle/pet-battle --version=1.0.4 -f values.yaml --namespace petbattle
 helm upgrade --install pet-battle-tournament petbattle/pet-battle-tournament --version=1.0.20 --namespace petbattle
 ```
 
