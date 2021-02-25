@@ -14,19 +14,14 @@ helm search repo pet-battle
 
 Login to OpenShift as cluster admin user
 
-Create a project
-```bash
-oc new-project pb
-```
-
-You will need to adjust the `pet-battle` UI `values.yaml` file to set the backend url's to suit your environment
+You will need to adjust the `pet-battle` UI `values.yaml` file to suit your environment prior to installing the UI chart
 ```bash
 wget https://raw.githubusercontent.com/petbattle/pet-battle/master/chart/values.yaml
 ```
 
 To install the main Pet Battle applications
 ```bash
-helm upgrade --install pet-battle-api petbattle/pet-battle-api --version=1.0.8 --namespace petbattle
+helm upgrade --install pet-battle-api petbattle/pet-battle-api --version=1.0.8 --namespace petbattle --create-namespace
 helm upgrade --install pet-battle petbattle/pet-battle --version=1.0.4 -f values.yaml
 helm upgrade --install pet-battle-tournament petbattle/pet-battle-tournament --version=1.0.20 --namespace petbattle
 ```
