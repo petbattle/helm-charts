@@ -28,7 +28,7 @@ helm upgrade --install pet-battle-tournament petbattle/pet-battle-tournament --v
 
 To install Pet Battle tournament service with a separate infrastructure chart which is useful for debugging
 ```bash
-helm upgrade --install pet-battle-infra petbattle/pet-battle-infra --version=1.0.15 --set install_cert_util=true --namespace petbattle
+helm upgrade --install pet-battle-infra petbattle/pet-battle-infra --version=1.0.21 --set install_cert_util=true --namespace petbattle
 helm upgrade --install pet-battle-tournament petbattle/pet-battle-tournament --version=1.0.28 --set tags.infra=false --namespace petbattle
 ```
 
