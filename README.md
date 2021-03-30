@@ -14,6 +14,30 @@ helm search repo pet-battle
 
 Login to OpenShift as cluster admin user
 
+Add a `HelmChartRepository`
+
+```bash
+cat <<EOF | oc apply -f -
+apiVersion: helm.openshift.io/v1beta1
+kind: HelmChartRepository
+metadata:
+  name: petbattle-charts
+spec:
+  name: petbattle
+  connectionConfig:
+    url: https://petbattle.github.io/helm-charts
+EOF
+```
+
+You can also use a nexus helm-chart repo as another entry as OpenShift supports relative chart urls as served by nexus:
+```bash
+url: https://nexus-labs-ci-cd.apps.openshift.example.com/repository/helm-charts
+```
+
+![pb-helm-charts-ocp.png](images/pb-helm-charts-ocp.png)
+
+## helm cli install
+
 You will need to adjust the `pet-battle` UI `values.yaml` file to suit your environment prior to installing the UI chart
 ```bash
 wget https://raw.githubusercontent.com/petbattle/pet-battle/master/chart/values.yaml
