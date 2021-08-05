@@ -45,15 +45,15 @@ wget https://raw.githubusercontent.com/petbattle/pet-battle/master/chart/values.
 
 To install the main Pet Battle applications
 ```bash
-helm upgrade --install pet-battle-api petbattle/pet-battle-api --version=1.0.11 --namespace petbattle --create-namespace
-helm upgrade --install pet-battle petbattle/pet-battle --version=1.0.5 -f values.yaml --namespace petbattle
-helm upgrade --install pet-battle-tournament petbattle/pet-battle-tournament --version=1.0.31 --namespace petbattle
+helm upgrade --install pet-battle-api petbattle/pet-battle-api --version=1.1.0 --namespace petbattle --create-namespace
+helm upgrade --install pet-battle petbattle/pet-battle --version=1.0.6 -f values.yaml --namespace petbattle
+helm upgrade --install pet-battle-tournament petbattle/pet-battle-tournament --version=1.0.39 --namespace petbattle
 ```
 
 To install Pet Battle tournament service with a separate infrastructure chart which is useful for debugging
 ```bash
-helm upgrade --install pet-battle-infra petbattle/pet-battle-infra --version=1.0.21 --set install_cert_util=true --namespace petbattle
-helm upgrade --install pet-battle-tournament petbattle/pet-battle-tournament --version=1.0.31 --set tags.infra=false --namespace petbattle
+helm upgrade --install pet-battle-infra petbattle/pet-battle-infra --version=1.0.31 --set install_cert_util=true --namespace petbattle
+helm upgrade --install pet-battle-tournament petbattle/pet-battle-tournament --version=1.0.39 --set tags.infra=false --namespace petbattle
 ```
 
 To install the NSFF feature
@@ -63,7 +63,7 @@ helm upgrade --install pet-battle-nsff petbattle/pet-battle-nsff --version=0.0.2
 HOST=$(kn service describe tensorflowserving-pb-nsff -o url)
 # openshift deployment
 HOST=$(oc get route tensorflowserving-pb-nsff -o custom-columns=ROUTE:.spec.host --no-headers)
-helm upgrade --install pet-battle-api petbattle/pet-battle-api --version=1.0.11 --set nsff.enabled=true --set nsff.apiHost=${HOST} --namespace petbattle
+helm upgrade --install pet-battle-api petbattle/pet-battle-api --version=1.1.0 --set nsff.enabled=true --set nsff.apiHost=${HOST} --namespace petbattle
 ```
 
 ## Delete apps
